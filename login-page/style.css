@@ -1,0 +1,189 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    font-family:  Arial, sans-serif;
+    
+}
+body {
+    background-color: black;
+}
+main {
+    background-image: url(./assets/bc.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.netflix-logo {
+    height: 100px;
+    width: 80%;
+    margin: auto;
+}
+.netflix-logo img {
+    width: 130px;
+    height: 100px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 460px;
+    width: 380px;
+    background-color: rgba(10, 10, 16, 0.607);
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(180, 169, 169, 0.648);
+}
+form{
+    padding: 20px;
+    width: 340px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 30px;
+    text-shadow: 0px, 0px, 2px rgba(0, 0, 0, 0.5);
+    margin-bottom: 60px;
+}
+p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.forgot-pass {
+    text-align: center;
+}
+main a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+.input-box {
+    display: flex;
+    flex-direction: column;  
+}
+
+.checkboc-box{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.checkbox {
+    display: flex;
+}
+
+.checkbox label {
+    margin-top: 13px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+label {
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+input {
+    background: rgba(10, 10, 16, 0.622);
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.42);
+}
+
+form button {
+    background: rgb(115, 73, 15);
+    height: 45px;
+    line-height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    width: 100%; 
+}
+
+#transparent-button {
+    background-color: rgba(43, 120, 120, 0.562);
+}
+
+.blanck-space {
+    height: 100px;
+    width: 100%;
+}
+
+footer div {
+    width: 90%;
+    margin: auto;
+    height: 10px;
+    margin-top: 50px;
+}
+footer div p{
+    text-align: left;
+    padding: 20px;
+    font-size: 20px;
+    padding-left: 0%;
+}
+footer div p a{
+    font-size: 20px;
+}
+footer div ul{
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+}
+footer div ul li {
+    height: 40px;
+    width: 250px;
+    list-style: none;
+}
+#bottom-button {
+    margin-top: 20px;
+    clear: both;
+    
+}
+#bottom-button button {
+    background: rgba(63, 61, 57, 0.726);
+    height: 45px;
+    line-height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    width: 130px;
+    font-size: 15px;
+    position: absolute;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 80%;
+}
+
+@media (max-width: 520px) {
+    .login {
+        width: 100%;
+    }
+    main {
+        background-image: none;
+    }
+}
